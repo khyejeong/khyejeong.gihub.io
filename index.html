@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Khyejeong | Full-Stack Developer Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <h1>Khyejeong</h1>
+      <p class="subtitle">Full-Stack Developer</p>
+      <nav>
+        <a href="#about">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#blog">Blog</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="about" class="card">
+      <h2>About Me</h2>
+      <p>
+        I build clean, user-focused web applications across the full stack.
+        I enjoy turning ideas into reliable products with thoughtful UI, robust APIs,
+        and maintainable code.
+      </p>
+    </section>
+
+    <section id="projects" class="card">
+      <h2>Projects</h2>
+
+      <article class="project">
+        <a href="https://github.com/khyejeong" target="_blank" rel="noopener noreferrer">
+          <img src="assets/project-ecommerce.svg" alt="E-Commerce Dashboard project preview">
+        </a>
+        <div>
+          <h3>E-Commerce Dashboard</h3>
+          <p>Admin dashboard for tracking orders, products, and customer activity.</p>
+          <p><strong>Skills:</strong> Responsive UI, API integration, data visualization</p>
+          <p><strong>Tools:</strong> HTML, CSS, JavaScript, GitHub</p>
+        </div>
+      </article>
+
+      <article class="project">
+        <a href="https://github.com/khyejeong" target="_blank" rel="noopener noreferrer">
+          <img src="assets/project-taskmanager.svg" alt="Task Manager App project preview">
+        </a>
+        <div>
+          <h3>Task Manager App</h3>
+          <p>Productivity app for managing projects, deadlines, and team tasks.</p>
+          <p><strong>Skills:</strong> CRUD workflow design, accessibility, state handling</p>
+          <p><strong>Tools:</strong> HTML, CSS, JavaScript, REST API</p>
+        </div>
+      </article>
+    </section>
+
+    <section id="blog" class="card">
+      <h2>Blog</h2>
+      <div class="tabs">
+        <input type="radio" name="blog-tabs" id="tab-1" checked>
+        <input type="radio" name="blog-tabs" id="tab-2">
+        <input type="radio" name="blog-tabs" id="tab-3">
+
+        <div class="tab-labels">
+          <label for="tab-1">Web Development</label>
+          <label for="tab-2">Career Notes</label>
+          <label for="tab-3">Project Breakdown</label>
+        </div>
+
+        <div class="tab-panels">
+          <article class="tab-panel panel-1">
+            <h3>Building Better Front Ends</h3>
+            <p>Thoughts on semantic HTML, reusable CSS patterns, and clean UI structure.</p>
+          </article>
+          <article class="tab-panel panel-2">
+            <h3>Interview Prep as a Full-Stack Developer</h3>
+            <p>How I prepare coding projects and technical stories for hiring teams.</p>
+          </article>
+          <article class="tab-panel panel-3">
+            <h3>From Idea to Deployment</h3>
+            <p>A practical walk-through of turning project requirements into a shipped product.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
