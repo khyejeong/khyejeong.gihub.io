@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 280" role="img" aria-label="Task Manager App preview">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f766e"/>
+      <stop offset="100%" stop-color="#14b8a6"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="280" rx="16" fill="url(#bg2)"/>
+  <rect x="34" y="36" width="412" height="48" rx="10" fill="#ffffff" opacity="0.95"/>
+  <rect x="34" y="104" width="412" height="42" rx="10" fill="#ccfbf1"/>
+  <rect x="34" y="158" width="412" height="42" rx="10" fill="#e6fffa"/>
+  <rect x="34" y="212" width="270" height="34" rx="10" fill="#ffffff" opacity="0.95"/>
+  <circle cx="58" cy="124" r="8" fill="#0f766e"/>
+  <circle cx="58" cy="178" r="8" fill="#0f766e"/>
+  <text x="240" y="26" text-anchor="middle" fill="#ffffff" font-size="18" font-family="Segoe UI, Arial, sans-serif">Task Manager App</text>
+</svg>
